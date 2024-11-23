@@ -1,2 +1,2 @@
-# Linked list
-### an un-rusty implementation of non-intrusive singly linked list
+## Linked list
+an un-rusty implementation of non-intrusive singly linked list
