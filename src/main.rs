@@ -13,6 +13,8 @@ fn main() {
         ptr.push(69);
         ptr2.push(59);
     }
+
+    // 
     for (i, elem) in list.iter().enumerate() {
         println!("element {}: {}", i, elem);
     }

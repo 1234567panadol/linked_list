@@ -133,11 +133,8 @@ impl<T> List<T> {
 impl<T> Drop for List<T> {
     fn drop(&mut self) {
         unsafe {
-            while let Some(_) = self.pop_front() {
-                println!("deleting element")
-            }
+            while let Some(_) = self.pop_front() { }
             let _ = Box::from_raw(self.begin.as_ptr());
-            println!("deleting list")
         }
     }
 }
